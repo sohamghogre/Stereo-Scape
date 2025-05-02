@@ -15,6 +15,14 @@ Stereo-Scape is a 3D scene reconstruction project that uses stereo vision techni
 🔧 Easy-to-modify pipeline for custom stereo algorithms
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
+
+![Screenshot 2025-04-23 184909](https://github.com/user-attachments/assets/24ca6808-29bb-4a58-821c-16d866edab15)
+![Screenshot 2025-04-23 184925](https://github.com/user-attachments/assets/475f1a27-5a23-4b5a-a358-a303e798a37c)
+![Screenshot 2025-04-23 184940](https://github.com/user-attachments/assets/1670e493-40b6-4151-8519-6373775903e2)
+![Screenshot 2025-04-23 184954](https://github.com/user-attachments/assets/30e066af-fa7d-456f-a23e-b79ff59b02b7)
+![Screenshot 2025-04-26 105252](https://github.com/user-attachments/assets/66b78984-e266-45e7-91af-68f0603a8f8d)
+
+
 stereo-scape/
 │
 ├── data/              # Sample stereo image pairs
@@ -27,12 +35,25 @@ stereo-scape/
 ├── requirements.txt   # Python dependencies
 └── README.md          # Project description and setup instructions
 
-![Screenshot 2025-04-23 184909](https://github.com/user-attachments/assets/24ca6808-29bb-4a58-821c-16d866edab15)
-![Screenshot 2025-04-23 184925](https://github.com/user-attachments/assets/475f1a27-5a23-4b5a-a358-a303e798a37c)
-![Screenshot 2025-04-23 184940](https://github.com/user-attachments/assets/1670e493-40b6-4151-8519-6373775903e2)
-![Screenshot 2025-04-23 184954](https://github.com/user-attachments/assets/30e066af-fa7d-456f-a23e-b79ff59b02b7)
-![Screenshot 2025-04-26 105252](https://github.com/user-attachments/assets/66b78984-e266-45e7-91af-68f0603a8f8d)
+🚀 Getting Started
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/sohamghogre/Stereo-Scape
+cd stereo-scape
+2. Install Dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Make sure you have OpenCV (opencv-python) and NumPy installed.
 
+3. Run the Code
+bash
+Copy
+Edit
+python src/stereo.py
 
 
 
