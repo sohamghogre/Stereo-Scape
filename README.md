@@ -46,6 +46,7 @@ MongoDB
 Clone the repository:
 
 git clone https://github.com/nilay2004/steroscape.git
+
 Backend Setup:
 
 cd stereo-scape/backend
@@ -53,6 +54,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 python app.py
+
 Frontend Setup:
 
 cd ../web
